@@ -1,0 +1,36 @@
+.AboutCourseSection {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  padding: 63px;
+
+  .AboutCourseSectionWrapper {
+    width: 1120px;
+
+    .Top {
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+    }
+
+    .Bottom {
+      justify-content: space-between;
+      display: flex;
+      margin-top: 24px;
+      padding-bottom: 64px;
+      border-bottom: 1px solid #8C8C8C;
+
+      .TextBlock {
+        flex-direction: column;
+        display: flex;
+        margin-left: 20px;
+        padding-right: 51px;
+
+        .TextWrapper {
+          text-align: start;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

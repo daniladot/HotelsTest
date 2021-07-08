@@ -1,0 +1,59 @@
+.HeaderTop{
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 98px;
+  background: #0053D9;
+  z-index: 1000;
+
+  .HeaderTopWrapper {
+    justify-content: space-between;
+    display: flex;
+    width: 1120px;
+
+    .Left {
+      align-items: center;
+      display: flex;
+
+      .Logo {
+        width: 183px;
+        height: 42px;
+        background: url("../../../image/header/logo.png") no-repeat center center / contain;
+      }
+
+      .Menu {
+        justify-content: space-between;
+        display: flex;
+        margin-left: 24px;
+        width: 366px;
+      }
+    }
+
+    .Right {
+      align-items: center;
+      display: flex;
+
+      .Find {
+        width: 24px;
+        height: 24px;
+        background: url("../../../image/header/search.svg") no-repeat center center / contain;
+      }
+
+      .Button {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 80px;
+        height: 40px;
+        margin-left: 24px;
+        border: 1px solid #F5F5F5;
+        box-sizing: border-box;
+        border-radius: 8px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

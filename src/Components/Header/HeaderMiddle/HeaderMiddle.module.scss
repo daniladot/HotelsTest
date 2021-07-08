@@ -1,0 +1,67 @@
+.HeaderMiddle {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin-top: 44px;
+
+  .HeaderMiddleWrapper {
+    justify-content: space-between;
+    display: flex;
+    width: 1120px;
+
+    .Left {
+      flex-direction: column;
+      display: flex;
+
+      .BreadCrumbsWrapper {
+        display: flex;
+      }
+
+      .Title {
+        justify-content: flex-start;
+        display: flex;
+        margin-top: 64px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: 0.5px;
+        color: #262626;
+      }
+    }
+
+    .Right {
+      justify-content: space-between;
+      display: flex;
+      width: 232px;
+
+      .ButtonShare, .ButtonFavorites {
+        align-items: center;
+        display: flex;
+        height: 24px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #262626;
+
+        &:before {
+          content: '';
+          display: block;
+          width: 20px;
+          height: 20px;
+          margin-right: 2px;
+        }
+      }
+
+      .ButtonShare {
+        &:before {
+          background: url("../../../image/header/share-icon.svg") no-repeat center center / contain;
+        }
+      }
+
+      .ButtonFavorites {
+        &:before {
+          background: url("../../../image/header/favorite-icon.svg") no-repeat center center / contain;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.Gallery{
+  width: auto;
+  justify-content: space-between;
+  display: flex;
+  
+  .ImageGroup{
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+
+    .All{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      width: 170px;
+      height: 169px;
+      border-radius: 8px;
+      background: #0468FF;
+      cursor: pointer;
+
+      .Text{
+        position: relative;
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        font-weight: 500;
+        color: #FFFFFF;
+
+        &:after{
+          content: '';
+          position: absolute;
+          top: -20px;
+          left: 50%;
+          width: 24px;
+          height: 24px;
+          background: url("../../../image/gallery/all-images.svg") no-repeat center center / contain;
+          transform: translate(-50%,0);
+        }
+      }
+    }
+  }
+}

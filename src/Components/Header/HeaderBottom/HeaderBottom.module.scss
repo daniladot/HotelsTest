@@ -1,0 +1,88 @@
+.HeaderBottom{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 44px;
+  width: 100%;
+  padding-bottom: 24px;
+  background: #FFFFFF;
+  z-index: 1000;
+
+  .Tabs{
+    align-items: center;
+    display: flex;
+    padding: 0 12px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #262626;
+    cursor: pointer;
+
+    &:before{
+      content: '';
+      display: inline-block;
+      margin-right: 5px;
+      width: 32px;
+      height: 32px;
+    }
+
+    &[data-icon='overview']{
+      border-right: 1px solid #D9D9D9;
+
+      &:before {
+        background: url("../../../image/header/overview-icon.svg") no-repeat center center / contain;
+      }
+    }
+
+    &[data-icon='organization']{
+      border-right: 1px solid #D9D9D9;
+
+      &:before {
+        background: url("../../../image/header/organization-icon.svg") no-repeat center center / contain;
+      }
+    }
+
+    &[data-icon='information']{
+      border-right: 1px solid #D9D9D9;
+
+      &:before {
+        background: url("../../../image/header/information-icon.svg") no-repeat center center / contain;
+      }
+    }
+
+    &[data-icon='date']{
+      &:before {
+        background: url("../../../image/header/date-icon.svg") no-repeat center center / contain;
+      }
+    }
+
+    &:hover{
+      color: #0468FF;
+
+      &[data-icon='overview']{
+
+        &:before {
+          background: url("../../../image/header/overview-icon-blue.svg") no-repeat center center / contain;
+        }
+      }
+
+      &[data-icon='organization']{
+        &:before {
+          background: url("../../../image/header/organization-icon-blue.svg") no-repeat center center / contain;
+        }
+      }
+
+      &[data-icon='information']{
+        &:before {
+          background: url("../../../image/header/information-icon-blue.svg") no-repeat center center / contain;
+        }
+      }
+
+      &[data-icon='date']{
+        &:before {
+          background: url("../../../image/header/date-icon-blue.svg") no-repeat center center / contain;
+        }
+      }
+    }
+  }
+}

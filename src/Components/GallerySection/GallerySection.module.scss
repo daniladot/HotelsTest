@@ -1,0 +1,24 @@
+.GallerySection {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+
+  .GallerySectionWrapper {
+    width: 1120px;
+
+    .AboutTour {
+      flex-direction: column;
+      align-items: flex-start;
+      display: flex;
+      margin-top: 44px;
+      width: 100%;
+
+      .TextWrapper {
+        margin-top: 25px;
+        padding-bottom: 44px;
+        border-bottom: 1px solid #8C8C8C;
+        text-align: start;
+      }
+    }
+  }
+}

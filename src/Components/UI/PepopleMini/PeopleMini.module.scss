@@ -1,0 +1,36 @@
+.PeopleMini{
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+  width: 209px;
+  min-width: 209px;
+
+  .Image{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  
+  .InformationBlock{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+
+    .Name{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.2px;
+      color: #262626;
+    }
+
+    .DateRegister{
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      color: #8C8C8C;
+
+    }
+  }
+}
